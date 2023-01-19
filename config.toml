@@ -1,3 +1,6 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://gunmerq.github.io/hida-takayama-high-school'
+languageCode = 'ja-JP'
 title = 'My New Hugo Site'
+
+[params]
+	customCSS = ['css/base.css', 'css/header.css', 'css/footer.css']

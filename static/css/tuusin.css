@@ -1,0 +1,66 @@
+.tuusin {
+    padding-top: 124px;
+    max-width: 880px;
+    margin: 0 auto 24px;
+}
+.tuusin__heading {
+    font-weight: 300;
+    margin:0 16px 24px;
+}
+.swiper {
+    height: 456px;
+    margin: 0 16px 24px;
+}
+.swiper-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tuusin-news__title, .tuusin-news__sub-title {
+    text-align: center;
+    font-weight: 300;
+}
+.tuusin-news__sub-title {
+    font-size: 1rem;
+    margin-bottom: 48px;
+}
+.tuusin-news {
+    max-width: 880px;
+    padding: 0 16px 48px;
+    margin: 0 auto 24px;
+    border-bottom: 2px solid var(--hida-green);
+}
+.tuusin-news__content {
+    margin: 0 auto 48px;
+}
+.tuusin-news__item {
+    padding: 8px 0;
+    border-bottom: solid 1px rgba(51, 51, 51, 0.6);
+}
+.tuusin-news__item:first-child {
+    border-top: solid 1px rgba(51, 51, 51, 0.6);
+}
+.tuusin-news__link {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 0;
+}
+.tuusin-news__link {
+    font: normal 300 16px/150% 'Noto Sans JP', sans-serif;
+    color: var(--main-tem-color);
+}
+.tuusin-news__label {
+    height: 28.8px;
+    background: var(--hida-deep-green);
+    color: var(--hida-white);
+    padding: 0 8px;
+    margin: 0 16px;
+}
+.tuusin-news__list-link {
+    margin: auto;
+}
+@media screen and (max-width: 1039px) {
+    .swiper {
+        height: 200px;
+    }
+}

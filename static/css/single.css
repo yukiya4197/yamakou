@@ -1,0 +1,29 @@
+article#content {
+    max-width: 880px;
+    padding: 144px 16px 56px;
+    margin: 0 auto;
+}
+article#content h1 {
+    padding: 0 16px;
+    margin: 24px 0;
+    font: normal 500 24px/200% 'Noto Sans JP', sans-serif;
+    color: var(--hida-white);
+    background: var(--hida-deep-green);
+}
+article#content h2 {
+    padding: 0 16px;
+    margin: 24px 0 16px 16px;
+    font: normal 500 22px/200% 'Noto Sans JP', sans-serif;
+    color: var(--hida-orange);
+    border-left: 4px solid var(--hida-orange);
+}
+article#content hr {
+    margin: 8px 0;
+}
+article#content img {
+    display: block;
+    width: 100%;
+    margin-bottom: 48px;
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
+    border-radius: 8px;
+}

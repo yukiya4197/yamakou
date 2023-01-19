@@ -1,0 +1,26 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12px 24px;
+    max-width: 880px;
+    padding: 0 16px 24px;
+    margin: 24px auto;
+    border-bottom: 2px solid var(--hida-green);
+}
+.list__link {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font: normal 300 24px/220% 'Noto Sans JP', sans-serif;
+    color: var(--hida-deep-green);
+}
+.list__link:hover {
+    opacity: 0.8;
+}
+@media screen and (max-width: 1039px) {
+    .list__item {
+        width: 40%;
+        min-width: fit-content;
+    }
+}
