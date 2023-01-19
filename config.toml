@@ -3,4 +3,4 @@ languageCode = 'ja-JP'
 title = 'My New Hugo Site'
 
 [params]
-	customCSS = ['css/base.css', 'css/header.css', 'css/footer.css']
+	customCSS = ['css/base.css', 'css/header.css', 'css/footer.css', 'css/output.css']
