@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@700&display=swap');
+
+:root {
+    --hida-green: #87E293;
+    --hida-deep-green: #41924B;
+    --hida-light-green: #AFEAAA;
+    --hida-orange: #FE8402;
+    --hida-charcoal: #333333;
+    --hida-black: rgba(36, 49, 60, 0.8);
+    --hida-white: #F9F9F9;
+}
+
+:root {
+    --main-title-color: var(--hida-charcoal);
+    --main-title-font: normal 700 48px/150% 'Noto Sans JP', sans-serif;
+    --main-text-color: var(--hida-charcoal);
+    --main-text-font: normal 300 16px/180% 'Noto Sans JP', sans-serif;
+    --main-item-color: var(--hida-charcoal);
+    --main-item-font: normal 300 22px/200% 'Noto Sans JP', sans-serif;
+    --main-button-color: var(--hida-deep-green);
+    --main-button-font: normal 300 24px/200% 'Noto Sans JP', sans-serif;
+}
+
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: var(--hida-charcoal);
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+.button {
+    display: block;
+    width: fit-content;
+    padding: 4px 64px;
+    font: var(--main-button-font);
+    color: var(--main-button-color);
+    border: solid 2px var(--main-button-color);
+    border-radius: 4px;
+    transition: 0.4s;
+}
+.button:hover {
+    background: var(--main-button-color);
+    color: var(--hida-white);
+}
+.button--small {
+    font-size: 16px;
+}
+h1 {
+    font: var(--main-title-font);
+    color: var(--main-title-color);
+}
+p {
+    font: var(--main-text-font);
+    color: var(--main-text-color);
+}
+
+@media screen and (max-width: 765px) {
+    h1 {
+        font-size: 24px;
+    }
+}

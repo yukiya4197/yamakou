@@ -39,13 +39,42 @@
     font: normal 300 16px/150% 'Noto Sans JP', sans-serif;
     color: var(--main-tem-color);
 }
-.top-news__label {
+.top-news__label__general {
     height: 28.8px;
     background: var(--hida-deep-green);
     color: var(--hida-white);
     padding: 0 8px;
     margin: 0 16px;
 }
+.top-news__label__okamoto {
+    height: 28.8px;
+    background: var(--hida-deep-green);
+    color: var(--hida-white);
+    padding: 0 8px;
+    margin: 0 16px;
+}
+.top-news__label__yamada {
+    height: 28.8px;
+    background: var(--hida-deep-green);
+    color: var(--hida-white);
+    padding: 0 8px;
+    margin: 0 16px;
+}
+.top-news__label__tuusin {
+    height: 28.8px;
+    background: var(--hida-deep-green);
+    color: var(--hida-white);
+    padding: 0 8px;
+    margin: 0 16px;
+}
+.top-news__label__teiji {
+    height: 28.8px;
+    background: var(--hida-deep-green);
+    color: var(--hida-white);
+    padding: 0 8px;
+    margin: 0 16px;
+}
+
 .top-news__list-link {
     margin: auto;
 }

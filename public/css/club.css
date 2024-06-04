@@ -1,0 +1,67 @@
+.top-club__link {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+.top-club__link--Athletic {
+    position: relative;
+    z-index: 0;
+    width: 50%;
+    height: 50px;
+    font: var(--main-item-font);
+    color: var(--hida-white);
+    line-height: 50px;
+    text-align: center;
+    background-color: var(--hida-black);
+}
+.top-club__link--Cultural {
+    position: relative;
+    z-index: 0;
+    width: 50%;
+    height: 50px;
+    font: var(--main-item-font);
+    color: var(--hida-white);
+    line-height: 50px;
+    text-align: center;
+    background-color: var(--hida-black);
+}
+
+.top-campus__link:hover {
+    opacity: 0.8;
+}
+
+.top-club__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 36px;
+}
+.top-club__card {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.top-club__card:nth-child(even) {
+    padding-top: 48px;
+}
+.top-club__img {
+    width: 100%;
+    border-bottom: 8px solid var(--hida-light-green);
+    opacity: 0.8;
+}
+.top-club__name {
+    font: normal 700 24px/200% 'Noto Sans JP', sans-serif;
+    color: var(--hida-deep-green);
+}
+.top-club__desc {
+    margin-bottom: 24px;
+}
+@media screen and (max-width: 1039px) {
+    .swiper {
+        height: 350px;
+    }
+    .top-campus__link {
+        width: 100%;
+    }
+}
