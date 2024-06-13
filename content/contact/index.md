@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "お問い合わせ"
 date: 2022-11-21T10:00:16+09:00
 draft: false
 ---
