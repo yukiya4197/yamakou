@@ -1,0 +1,30 @@
+.event__heading{
+    background-color: var(--hida-deep-green);
+    color: var(--hida-white);
+}
+.event__wrap {
+    display: flex; /* 要素を横並び */
+    flex-wrap: wrap;/* 要素を折り返す */
+    justify-content: space-between;/* 要素を両端ぞろえ */
+    gap: 24px;/* アイテム間の余白 */
+    margin-bottom: 36px;
+}
+.event__card {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.event__card:nth-child(even) {
+    padding-top: 48px;
+}
+.event__img {
+    width: 100%;
+    opacity: 0.8;
+}
+.event__name {
+    font: normal 700 24px/200% 'Noto Sans JP', sans-serif;
+    color: var(--hida-deep-green);
+}
+.event__desc {
+    margin-bottom: 24px;
+}
