@@ -6,8 +6,15 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 10 Jun 2024 20:17:58 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2024 20:12:57 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/hida-takayama-high-school/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学校行事</title>
+      <link>http://localhost:1313/hida-takayama-high-school/okamoto/event/</link>
+      <pubDate>Tue, 18 Jun 2024 20:12:57 +0900</pubDate>
+      <guid>http://localhost:1313/hida-takayama-high-school/okamoto/event/</guid>
+      <description>岡本キャンパス学校行事 飛騨高山高校岡本キャンパスの学校行事を紹介します 入学式 高校生活が始まる日です。不安と緊張でスタートするかもしれませんが、頼れる先輩と先生たちばかりです。きっと充実した３年間が待っています！&#xA;対面式・部紹介 新入生と在校生が初めて顔を合わせる日です。先輩たちによる学校紹介や部活動紹介を行います。山高にはたくさんの部活動があり、どれも魅力的です。</description>
+    </item>
     <item>
       <title>Admission</title>
       <link>http://localhost:1313/hida-takayama-high-school/admission/</link>
