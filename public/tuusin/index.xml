@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tuusin on My New Hugo Site</title>
-    <link>http://localhost:1313/hida-takayama-high-school/tuusin/</link>
+    <link>https://yukiya4197.github.io/hida-takayama-high-school/tuusin/</link>
     <description>Recent content in Tuusin on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/hida-takayama-high-school/tuusin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yukiya4197.github.io/hida-takayama-high-school/tuusin/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
