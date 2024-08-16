@@ -1,0 +1,13 @@
+img{
+    float: left;
+    padding: 5px;
+    width: 25%;
+    }
+@media screen and (max-width: 1039px) {
+    .swiper {
+        height: 350px;
+    }
+    .top-campus__link {
+        width: 100%;
+    }
+}
