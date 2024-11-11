@@ -111,10 +111,10 @@
     border-bottom: 1px solid var(--hida-white);
 }
 .top-campus__link--okamoto::after {
-    background-image: url(/hida-takayama-high-school/images/slide/okamoto.webp);
+    background-image: url(/yamakou/images/slide/okamoto.webp);
 }
 .top-campus__link--yamada::after {
-    background-image: url(/hida-takayama-high-school/images/slide/yamada.webp);
+    background-image: url(/yamakou/images/slide/yamada.webp);
 }
 .top-department {
     max-width: 960px;
